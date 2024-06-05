@@ -16,6 +16,9 @@ include_directories(
 
 add_executable(OpenGLPractice7
         src/main.cpp
+        src/window.cpp
+        src/mesh.cpp
+        src/shader.cpp
 )
 
 target_link_libraries(OpenGLPractice7
